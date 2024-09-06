@@ -4,6 +4,7 @@ import edu.cmu.cs.cs214.lab02.shapes.*;
 
 public class Renderer {
 
+    // add shape instance variable
     private final Shape shape;
 
     public Renderer(Shape shape) {
