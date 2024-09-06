@@ -1,10 +1,14 @@
-function circle(radius: number): Shape {
-    return {
-        radius,
-        computeArea: function (): number {
-            return Math.PI * radius * radius
-        }
-    }
+interface Circle {
+    radius: number,
+    computeArea: () => number
 }
 
-export { circle }
+function newCircle(radius: number): Shape {
+    return {
+        computeArea: function (): number {
+            return Math.PI * radius * radius;
+        }
+    };
+}
+
+export { Circle, newCircle }
