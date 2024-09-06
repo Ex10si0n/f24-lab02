@@ -1,4 +1,5 @@
 interface Square {
+    // define private properties
     sideLen: number,
     computeArea: () => number
 }

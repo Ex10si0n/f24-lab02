@@ -1,4 +1,5 @@
 interface Circle {
+    // defined private properties
     radius: number,
     computeArea: () => number
 }

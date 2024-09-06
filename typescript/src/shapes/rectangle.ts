@@ -1,4 +1,5 @@
 interface Rectangle {
+    // defined private properties
     width: number,
     height: number,
     computeArea: () => number
